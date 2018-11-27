@@ -1,2 +1,3 @@
 .vscode
 .~lock.data.csv#
+__pycache__

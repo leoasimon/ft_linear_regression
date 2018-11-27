@@ -3,7 +3,7 @@
 import json
 import sys
 
-def predict(t0, t1, x):
+def estimate(x, t0, t1):
     return (t0 + x * t1)
 
 def exitUsage():
