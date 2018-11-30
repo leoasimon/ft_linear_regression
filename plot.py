@@ -14,3 +14,12 @@ def linear_res(x, y, t0, t1):
     ax.scatter(x, y)
     ax.plot([min_km, max_km], [estimate(min_km, t0, t1), estimate(max_km, t0, t1)])
     plt.show()
+
+def plot_costs(costs):
+    x = range(len(costs))
+    fig, ax = plt.subplots()
+    ax.set_xlabel("Iterations")
+    ax.set_ylabel("Costs")
+    ax.plot(x, costs)
+    plt.show()
+
